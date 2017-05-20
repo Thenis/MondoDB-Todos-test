@@ -37,7 +37,7 @@ let userId = "591f25792c21eb351c1d0f9c";
 
 User.findById(userId).then((user) => {
 	if (!user) {
-		return console.log("Id no found");
+		return console.log("Id not found");
 	}
 
 	console.log(user)
